@@ -36,7 +36,7 @@ public class Main {
                     learnerService.getPromotionAbsenteeismRate();
                     break;
                 case 4:
-                    System.out.println("Not implemented yet");
+                    learnerService.addLearner();
                     break;
                 case 5:
                     System.out.println("Not implemented yet");
@@ -58,9 +58,9 @@ public class Main {
         System.out.println("2. List learners by Promotion");
         System.out.println("3. Get promotion absenteeism rate");
         System.out.println("4. Add learner");
-        System.out.println("5. Update learner absence");
-        System.out.println("6. Update learner");
-        System.out.println("7. Delete learner");
+        System.out.println("5. Update learner absence (not implemented yet)");
+        System.out.println("6. Update learner (not implemented yet)");
+        System.out.println("7. Delete learner (not implemented yet)");
         System.out.println("8. Exit");
 
         System.out.println("================");

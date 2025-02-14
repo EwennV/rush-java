@@ -36,8 +36,9 @@ public class LearnerRepository {
             statement.setString(2, learner.getFirstName());
             statement.setString(3, learner.getEmail());
             statement.setString(4, learner.getPhone());
-            statement.setInt(5, learner.getAbsence());
-            statement.setBoolean(6, learner.getIsDelegate());
+            statement.setString(5, learner.getPromotion());
+            statement.setInt(6, learner.getAbsence());
+            statement.setBoolean(7, learner.getIsDelegate());
 
             statement.executeUpdate();
         } catch (SQLException e) {
